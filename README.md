@@ -34,7 +34,7 @@ The dataset used in this project is the Breast Cancer Wisconsin (Diagnostic) dat
 <br>The dataset includes the following features:
 
 <br>id: ID number
-<br>: Diagnosis (M = malignant, B = benign)
+<br> Diagnosis (M = malignant, B = benign)
 <br>radius_mean: Mean radius of the tumor
 <br>texture_mean: Mean texture of the tumor
 <br>perimeter_mean: Mean perimeter of the tumor
@@ -66,20 +66,20 @@ The dataset used in this project is the Breast Cancer Wisconsin (Diagnostic) dat
 <br>symmetry_worst: Worst symmetry
 <br>fractal_dimension_worst: Worst fractal dimension
 <br>Data Sample
-Here are the first few rows of the dataset:
+<br>Here are the first few rows of the dataset:
 
-id	diagnosis	radius_mean	texture_mean	...	fractal_dimension_worst
-842302	M	17.99	10.38	...	0.11890
-842517	M	20.57	17.77	...	0.08902
-84300903	M	19.69	21.25	...	0.08758
-84348301	M	11.42	20.38	...	0.17300
-84358402	M	20.29	14.34	...	0.07678
-Data Preprocessing
-Before training the model, the following preprocessing steps are performed:
+<br>id	diagnosis	radius_mean	texture_mean	...	fractal_dimension_worst
+<br>842302	M	17.99	10.38	...	0.11890
+<br>842517	M	20.57	17.77	...	0.08902
+<br>84300903	M	19.69	21.25	...	0.08758
+<br>84348301	M	11.42	20.38	...	0.17300
+<br>84358402	M	20.29	14.34	...	0.07678
+<br>Data Preprocessing
+<br>Before training the model, the following preprocessing steps are performed:
 
-Dropping the ID column: The ID column is not useful for prediction.
-Encoding the target variable: Convert the diagnosis labels (M, B) to numeric values (1, 0).
-Standardizing features: Standardize the features to have zero mean and unit variance.
+<br>Dropping the ID column: The ID column is not useful for prediction.
+<br>Encoding the target variable: Convert the diagnosis labels (M, B) to numeric values (1, 0).
+<br>Standardizing features: Standardize the features to have zero mean and unit variance.
 
 
 
