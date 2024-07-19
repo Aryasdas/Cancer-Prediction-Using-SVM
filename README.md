@@ -1,10 +1,16 @@
-*Breast Cancer Prediction using Support Vector Machine (SVM)*.
-<b>Overview<b>
-<br>Breast cancer is one of the most common cancers among women worldwide. Early detection and diagnosis are crucial for effective treatment and improved survival rates. This project aims to develop a predictive model using a Support Vector Machine (SVM) classifier to distinguish between malignant and benign breast tumors based on the Breast Cancer Wisconsin (Diagnostic) dataset.<br>
+Breast Cancer Prediction using Support Vector Machine (SVM)  
+
+
+Overview
+Breast cancer is one of the most common cancers among women worldwide. Early detection and diagnosis are crucial for effective treatment and improved survival rates. This project aims to develop a predictive model using a Support Vector Machine (SVM) classifier to distinguish between malignant and benign breast tumors based on the Breast Cancer Wisconsin (Diagnostic) dataset.
+
+
 
 Theoretical Background
 Support Vector Machine (SVM)
 Support Vector Machine (SVM) is a supervised machine learning algorithm widely used for classification tasks. The primary objective of SVM is to find the optimal hyperplane that best separates the data into different classes. Key concepts include:
+
+
 
 Hyperplane: A decision boundary that separates the data points of different classes.
 Support Vectors: Data points that are closest to the hyperplane and influence its position and orientation.
@@ -16,8 +22,67 @@ Linear
 Polynomial
 Radial Basis Function (RBF)
 Sigmoid
-Breast Cancer Wisconsin (Diagnostic) Dataset
-The Breast Cancer Wisconsin (Diagnostic) dataset contains 569 samples of breast tumors, each described by 30 numerical features. The features are computed from digitized images of fine needle aspirate (FNA) of breast masses. Each sample is labeled as malignant (M) or benign (B).
+Breast Cancer_Dataset
+Dataset Description
+The dataset used in this project is the Breast Cancer Wisconsin (Diagnostic) dataset. It contains 569 instances of breast cancer data, each with 30 numeric features and one target label indicating the diagnosis (M = malignant, B = benign).
+
+Data Structure
+Number of Instances: 569
+Number of Features: 30 numeric features
+Target Variable: Diagnosis (M = malignant, B = benign)
+Features
+The dataset includes the following features:
+
+id: ID number
+diagnosis: Diagnosis (M = malignant, B = benign)
+radius_mean: Mean radius of the tumor
+texture_mean: Mean texture of the tumor
+perimeter_mean: Mean perimeter of the tumor
+area_mean: Mean area of the tumor
+smoothness_mean: Mean smoothness of the tumor
+compactness_mean: Mean compactness of the tumor
+concavity_mean: Mean concavity of the tumor
+concave points_mean: Mean number of concave points of the tumor
+symmetry_mean: Mean symmetry of the tumor
+fractal_dimension_mean: Mean fractal dimension of the tumor
+radius_se: Standard error of the radius
+texture_se: Standard error of the texture
+perimeter_se: Standard error of the perimeter
+area_se: Standard error of the area
+smoothness_se: Standard error of the smoothness
+compactness_se: Standard error of the compactness
+concavity_se: Standard error of the concavity
+concave points_se: Standard error of the concave points
+symmetry_se: Standard error of the symmetry
+fractal_dimension_se: Standard error of the fractal dimension
+radius_worst: Worst (largest) radius
+texture_worst: Worst texture
+perimeter_worst: Worst perimeter
+area_worst: Worst area
+smoothness_worst: Worst smoothness
+compactness_worst: Worst compactness
+concavity_worst: Worst concavity
+concave points_worst: Worst number of concave points
+symmetry_worst: Worst symmetry
+fractal_dimension_worst: Worst fractal dimension
+Data Sample
+Here are the first few rows of the dataset:
+
+id	diagnosis	radius_mean	texture_mean	...	fractal_dimension_worst
+842302	M	17.99	10.38	...	0.11890
+842517	M	20.57	17.77	...	0.08902
+84300903	M	19.69	21.25	...	0.08758
+84348301	M	11.42	20.38	...	0.17300
+84358402	M	20.29	14.34	...	0.07678
+Data Preprocessing
+Before training the model, the following preprocessing steps are performed:
+
+Dropping the ID column: The ID column is not useful for prediction.
+Encoding the target variable: Convert the diagnosis labels (M, B) to numeric values (1, 0).
+Standardizing features: Standardize the features to have zero mean and unit variance.
+
+
+
 
 Project Workflow
 1. Data Preprocessing
