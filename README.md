@@ -6,8 +6,8 @@ Breast cancer is one of the most common cancers among women worldwide. Early det
 
 
 
-Theoretical Background
-Support Vector Machine (SVM)
+*Theoretical Background
+Support Vector Machine (SVM):
 Support Vector Machine (SVM) is a supervised machine learning algorithm widely used for classification tasks. The primary objective of SVM is to find the optimal hyperplane that best separates the data into different classes. Key concepts include:
 
 
