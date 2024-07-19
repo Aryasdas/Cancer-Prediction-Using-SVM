@@ -22,12 +22,12 @@ Linear
 Polynomial
 Radial Basis Function (RBF)
 Sigmoid
-Breast Cancer_Dataset
+<b>Breast Cancer_Dataset</b>
 <b>Dataset Description</b>
 The dataset used in this project is the Breast Cancer Wisconsin (Diagnostic) dataset. It contains 569 instances of breast cancer data, each with 30 numeric features and one target label indicating the diagnosis (M = malignant, B = benign).
 
 <b>Data Structure</b>
-<br>Number of Instances: 569</br>
+<br>Number of Instances: 569
 Number of Features: 30 numeric features
 Target Variable: Diagnosis (M = malignant, B = benign)
 Features
