@@ -28,12 +28,12 @@ The dataset used in this project is the Breast Cancer Wisconsin (Diagnostic) dat
 
 <b>Data Structure</b>
 <br>Number of Instances: 569
-Number of Features: 30 numeric features
-Target Variable: Diagnosis (M = malignant, B = benign)
-Features
-The dataset includes the following features:
+<br>Number of Features: 30 numeric features
+<br>Target Variable: Diagnosis (M = malignant, B = benign)
+<br>Features
+<br>The dataset includes the following features:
 
-id: ID number
+<br>id: ID number
 diagnosis: Diagnosis (M = malignant, B = benign)
 radius_mean: Mean radius of the tumor
 texture_mean: Mean texture of the tumor
