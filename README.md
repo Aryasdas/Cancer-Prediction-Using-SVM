@@ -1,4 +1,4 @@
-Breast Cancer Prediction using Support Vector Machine (SVM)  
+<B>Breast Cancer Prediction using Support Vector Machine (SVM)<B>
 
 
 Overview
@@ -6,7 +6,7 @@ Breast cancer is one of the most common cancers among women worldwide. Early det
 
 
 
-*Theoretical Background
+
 Support Vector Machine (SVM):
 Support Vector Machine (SVM) is a supervised machine learning algorithm widely used for classification tasks. The primary objective of SVM is to find the optimal hyperplane that best separates the data into different classes. Key concepts include:
 
@@ -15,7 +15,7 @@ Support Vector Machine (SVM) is a supervised machine learning algorithm widely u
 Hyperplane: A decision boundary that separates the data points of different classes.
 Support Vectors: Data points that are closest to the hyperplane and influence its position and orientation.
 Margin: The distance between the hyperplane and the nearest data points from either class. SVM aims to maximize this margin.
-Kernel Trick
+Kernel Trick:
 SVM can perform linear and non-linear classification. For non-linear classification, SVM uses the kernel trick to transform the input space into a higher-dimensional space where a linear separator can be found. Commonly used kernels include:
 
 Linear
