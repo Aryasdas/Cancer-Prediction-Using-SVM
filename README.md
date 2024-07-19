@@ -1,21 +1,21 @@
 <b>Breast Cancer Prediction using Support Vector Machine (SVM)</b>
 
 
-Overview
+<b>Overview</b>
 Breast cancer is one of the most common cancers among women worldwide. Early detection and diagnosis are crucial for effective treatment and improved survival rates. This project aims to develop a predictive model using a Support Vector Machine (SVM) classifier to distinguish between malignant and benign breast tumors based on the Breast Cancer Wisconsin (Diagnostic) dataset.
 
 
 
-
-Support Vector Machine (SVM):
+<b>Theoretical Background</b>
+<b>Support Vector Machine (SVM)</b>:
 Support Vector Machine (SVM) is a supervised machine learning algorithm widely used for classification tasks. The primary objective of SVM is to find the optimal hyperplane that best separates the data into different classes. Key concepts include:
 
 
 
-Hyperplane: A decision boundary that separates the data points of different classes.
-Support Vectors: Data points that are closest to the hyperplane and influence its position and orientation.
-Margin: The distance between the hyperplane and the nearest data points from either class. SVM aims to maximize this margin.
-Kernel Trick:
+<b>Hyperplane:</b> A decision boundary that separates the data points of different classes.
+<b>Support Vectors:</b> Data points that are closest to the hyperplane and influence its position and orientation.
+<b>Margin</b>: The distance between the hyperplane and the nearest data points from either class. SVM aims to maximize this margin.
+<b>Kernel Trick:</b>
 SVM can perform linear and non-linear classification. For non-linear classification, SVM uses the kernel trick to transform the input space into a higher-dimensional space where a linear separator can be found. Commonly used kernels include:
 
 Linear
@@ -23,10 +23,10 @@ Polynomial
 Radial Basis Function (RBF)
 Sigmoid
 Breast Cancer_Dataset
-Dataset Description
+<b>Dataset Description</b>
 The dataset used in this project is the Breast Cancer Wisconsin (Diagnostic) dataset. It contains 569 instances of breast cancer data, each with 30 numeric features and one target label indicating the diagnosis (M = malignant, B = benign).
 
-Data Structure
+<b>Data Structure</b>
 Number of Instances: 569
 Number of Features: 30 numeric features
 Target Variable: Diagnosis (M = malignant, B = benign)
@@ -84,7 +84,7 @@ Standardizing features: Standardize the features to have zero mean and unit vari
 
 
 
-Project Workflow
+<b>Project Workflow<b>
 1. Data Preprocessing
 Loading Data: Read the dataset from a CSV file.
 Data Cleaning: Remove unnecessary columns (e.g., ID).
