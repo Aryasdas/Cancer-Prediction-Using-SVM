@@ -1,4 +1,4 @@
-<B>Breast Cancer Prediction using Support Vector Machine (SVM)<B>
+<b>Breast Cancer Prediction using Support Vector Machine (SVM)</b>
 
 
 Overview
