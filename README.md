@@ -34,38 +34,38 @@ The dataset used in this project is the Breast Cancer Wisconsin (Diagnostic) dat
 <br>The dataset includes the following features:
 
 <br>id: ID number
-diagnosis: Diagnosis (M = malignant, B = benign)
-radius_mean: Mean radius of the tumor
-texture_mean: Mean texture of the tumor
-perimeter_mean: Mean perimeter of the tumor
-area_mean: Mean area of the tumor
-smoothness_mean: Mean smoothness of the tumor
-compactness_mean: Mean compactness of the tumor
-concavity_mean: Mean concavity of the tumor
-concave points_mean: Mean number of concave points of the tumor
-symmetry_mean: Mean symmetry of the tumor
-fractal_dimension_mean: Mean fractal dimension of the tumor
-radius_se: Standard error of the radius
-texture_se: Standard error of the texture
-perimeter_se: Standard error of the perimeter
-area_se: Standard error of the area
-smoothness_se: Standard error of the smoothness
-compactness_se: Standard error of the compactness
-concavity_se: Standard error of the concavity
-concave points_se: Standard error of the concave points
-symmetry_se: Standard error of the symmetry
-fractal_dimension_se: Standard error of the fractal dimension
-radius_worst: Worst (largest) radius
-texture_worst: Worst texture
-perimeter_worst: Worst perimeter
-area_worst: Worst area
-smoothness_worst: Worst smoothness
-compactness_worst: Worst compactness
-concavity_worst: Worst concavity
-concave points_worst: Worst number of concave points
-symmetry_worst: Worst symmetry
-fractal_dimension_worst: Worst fractal dimension
-Data Sample
+<br>: Diagnosis (M = malignant, B = benign)
+<br>radius_mean: Mean radius of the tumor
+<br>texture_mean: Mean texture of the tumor
+<br>perimeter_mean: Mean perimeter of the tumor
+<br>area_mean: Mean area of the tumor
+<br>smoothness_mean: Mean smoothness of the tumor
+<br>compactness_mean: Mean compactness of the tumor
+<br>concavity_mean: Mean concavity of the tumor
+<br>concave points_mean: Mean number of concave points of the tumor
+<br>symmetry_mean: Mean symmetry of the tumor
+<br>fractal_dimension_mean: Mean fractal dimension of the tumor
+<br>radius_se: Standard error of the radius
+<br>texture_se: Standard error of the texture
+<br>perimeter_se: Standard error of the perimeter
+<br>area_se: Standard error of the area
+<br>smoothness_se: Standard error of the smoothness
+<br>compactness_se: Standard error of the compactness
+<br>concavity_se: Standard error of the concavity
+<br>concave points_se: Standard error of the concave points
+<br>symmetry_se: Standard error of the symmetry
+<br>fractal_dimension_se: Standard error of the fractal dimension
+<br>radius_worst: Worst (largest) radius
+<br>texture_worst: Worst texture
+<br>perimeter_worst: Worst perimeter
+<br>area_worst: Worst area
+<br>smoothness_worst: Worst smoothness
+<br>compactness_worst: Worst compactness
+<br>concavity_worst: Worst concavity
+<br>concave points_worst: Worst number of concave points
+<br>symmetry_worst: Worst symmetry
+<br>fractal_dimension_worst: Worst fractal dimension
+<br>Data Sample
 Here are the first few rows of the dataset:
 
 id	diagnosis	radius_mean	texture_mean	...	fractal_dimension_worst
